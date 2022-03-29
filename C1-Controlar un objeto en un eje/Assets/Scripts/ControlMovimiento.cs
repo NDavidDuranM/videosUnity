@@ -4,14 +4,6 @@ using UnityEngine;
 
 public class ControlMovimiento : MonoBehaviour
 {
-    /*// Start is called before the first frame update
-    void Start()
-    {
-        
-    }*/
-
-    // Update is called once per frame
-
     float _speedY = 25f;
     Vector3 _deltaPos = new Vector3();
     const float minLimiteY = -5.0f, maxLimiteY = 5.0f;
